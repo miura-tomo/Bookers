@@ -1,0 +1,6 @@
+<p class="single-text">
+    <%= @book.body %>
+</p>
+<!-- 編集部分 -->
+<%= link_to "編集", edit_book_path(@book) %>
+<%= link_to "削除", booku_path(@book), method: :delete %>
